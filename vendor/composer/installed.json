@@ -1,0 +1,342 @@
+[
+    {
+        "name": "apache/log4php",
+        "version": "2.3.0",
+        "version_normalized": "2.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/apache/logging-log4php.git",
+            "reference": "cac428b6f67d2035af39784da1d1a299ef42fcf2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/apache/logging-log4php/zipball/cac428b6f67d2035af39784da1d1a299ef42fcf2",
+            "reference": "cac428b6f67d2035af39784da1d1a299ef42fcf2",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.7"
+        },
+        "time": "2012-10-26T09:13:25+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/main/php/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "description": "A versatile logging framework for PHP",
+        "homepage": "http://logging.apache.org/log4php/",
+        "keywords": [
+            "log",
+            "logging",
+            "php"
+        ],
+        "abandoned": true
+    },
+    {
+        "name": "esas/cmsgate-core",
+        "version": "v2.2.9",
+        "version_normalized": "2.2.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/esasby/cmsgate-core.git",
+            "reference": "42e94b9c52f7e6f1700dd774e129b8ca89061a66"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/esasby/cmsgate-core/zipball/42e94b9c52f7e6f1700dd774e129b8ca89061a66",
+            "reference": "42e94b9c52f7e6f1700dd774e129b8ca89061a66",
+            "shasum": ""
+        },
+        "require": {
+            "apache/log4php": "2.3.0",
+            "ext-curl": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "ext-simplexml": "*",
+            "ext-xml": "*",
+            "php": ">= 5.6.0"
+        },
+        "time": "2023-09-20T08:28:26+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Esas",
+                "email": "info@esas.com"
+            }
+        ],
+        "description": "Common cms payment gate library",
+        "keywords": [
+            "api",
+            "cmsgate",
+            "esas",
+            "payment gateway"
+        ]
+    },
+    {
+        "name": "esas/cmsgate-hutkigrosh-lib",
+        "version": "v2.0.3",
+        "version_normalized": "2.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/esasby/cmsgate-hutkigrosh-lib.git",
+            "reference": "9c8d131ed82d3603dd32dac6d5f7ceb125a3fecc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/esasby/cmsgate-hutkigrosh-lib/zipball/9c8d131ed82d3603dd32dac6d5f7ceb125a3fecc",
+            "reference": "9c8d131ed82d3603dd32dac6d5f7ceb125a3fecc",
+            "shasum": ""
+        },
+        "require": {
+            "esas/cmsgate-core": "~v2.2.5",
+            "ext-curl": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "php": ">= 5.6.0",
+            "tecnickcom/tc-lib-barcode": "1.15.12"
+        },
+        "time": "2023-06-23T09:18:43+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Esas",
+                "email": "hutkigrosh@esas.com"
+            }
+        ],
+        "description": "CMSGate Hutkigrosh integration library",
+        "keywords": [
+            "api",
+            "cmsgate",
+            "esas",
+            "hutkigrosh",
+            "payment gateway"
+        ]
+    },
+    {
+        "name": "esas/cmsgate-woocommerce-lib",
+        "version": "v2.0.3",
+        "version_normalized": "2.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/esasby/cmsgate-woocommerce-lib.git",
+            "reference": "8c39840640e9a285971f9980792c40e6b7e34d70"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/esasby/cmsgate-woocommerce-lib/zipball/8c39840640e9a285971f9980792c40e6b7e34d70",
+            "reference": "8c39840640e9a285971f9980792c40e6b7e34d70",
+            "shasum": ""
+        },
+        "require": {
+            "esas/cmsgate-core": "~v2.2.9",
+            "php": ">= 5.6.0"
+        },
+        "time": "2024-01-11T07:56:12+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Esas",
+                "email": "info@esas.com"
+            }
+        ],
+        "description": "Wordpress woocommerce cms payment gate library",
+        "keywords": [
+            "api",
+            "cmsgate",
+            "esas",
+            "payment gateway",
+            "woo",
+            "woocommerce",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "tecnickcom/tc-lib-barcode",
+        "version": "1.15.12",
+        "version_normalized": "1.15.12.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tecnickcom/tc-lib-barcode.git",
+            "reference": "db37f9b1f0cbd44327306d437886ef7ab89024dc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tecnickcom/tc-lib-barcode/zipball/db37f9b1f0cbd44327306d437886ef7ab89024dc",
+            "reference": "db37f9b1f0cbd44327306d437886ef7ab89024dc",
+            "shasum": ""
+        },
+        "require": {
+            "ext-bcmath": "*",
+            "ext-date": "*",
+            "ext-gd": "*",
+            "ext-pcre": "*",
+            "php": ">=5.3",
+            "tecnickcom/tc-lib-color": "^1.12.12"
+        },
+        "require-dev": {
+            "apigen/apigen": "^2.8.1 || ^4.1.2",
+            "bartlett/php-compatinfo": "^4.5.2 || ^5.0.10 || ^5.0.12",
+            "pdepend/pdepend": "^2.5.2",
+            "phploc/phploc": "^2.1 || ^3.0 || ^4.0",
+            "phpmd/phpmd": "^2.6.0",
+            "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5 || ^7.1",
+            "sebastian/phpcpd": "^2.0 || ^3.0 || ^4.0",
+            "squizlabs/php_codesniffer": "^2.8.0 || ^3.2.0"
+        },
+        "time": "2018-06-23T10:43:40+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Com\\Tecnick\\Barcode\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Nicola Asuni",
+                "email": "info@tecnick.com",
+                "role": "lead"
+            }
+        ],
+        "description": "PHP library to generate linear and bidimensional barcodes",
+        "homepage": "http://www.tecnick.com",
+        "keywords": [
+            "3 of 9",
+            "ANSI MH10.8M-1983",
+            "CBC",
+            "CODABAR",
+            "CODE 11",
+            "CODE 128 A B C",
+            "CODE 39",
+            "CODE 93",
+            "EAN 13",
+            "EAN 8",
+            "ECC200",
+            "Intelligent Mail Barcode",
+            "Interleaved 2 of 5",
+            "KIX",
+            "Klant",
+            "MSI",
+            "Onecode",
+            "PHARMACODE",
+            "PHARMACODE TWO-TRACKS",
+            "POSTNET",
+            "RMS4CC",
+            "Standard 2 of 5",
+            "UPC-A",
+            "UPC-E",
+            "USD-3",
+            "USPS-B-3200",
+            "USS-93",
+            "barcode",
+            "datamatrix",
+            "pdf417",
+            "planet",
+            "qr-code",
+            "royal mail",
+            "tc-lib-barcode",
+            "upc"
+        ]
+    },
+    {
+        "name": "tecnickcom/tc-lib-color",
+        "version": "1.14.39",
+        "version_normalized": "1.14.39.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tecnickcom/tc-lib-color.git",
+            "reference": "f7a414e7ddbdcd98105506ca1eecc68d4820fb89"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tecnickcom/tc-lib-color/zipball/f7a414e7ddbdcd98105506ca1eecc68d4820fb89",
+            "reference": "f7a414e7ddbdcd98105506ca1eecc68d4820fb89",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pcre": "*",
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "pdepend/pdepend": "2.13.0",
+            "phpmd/phpmd": "2.13.0",
+            "phpunit/phpunit": "10.1.2 || 9.6.7 || 8.5.31 || 7.5.20 || 6.5.14 || 5.7.27 || 4.8.36",
+            "squizlabs/php_codesniffer": "3.7.2 || 2.9.2"
+        },
+        "time": "2023-10-23T09:28:20+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Com\\Tecnick\\Color\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Nicola Asuni",
+                "email": "info@tecnick.com",
+                "role": "lead"
+            }
+        ],
+        "description": "PHP library to manipulate various color representations",
+        "homepage": "http://www.tecnick.com",
+        "keywords": [
+            "cmyk",
+            "color",
+            "colors",
+            "colour",
+            "colours",
+            "hsl",
+            "hsla",
+            "javascript",
+            "rgb",
+            "rgba",
+            "tc-lib-color",
+            "web"
+        ]
+    }
+]
